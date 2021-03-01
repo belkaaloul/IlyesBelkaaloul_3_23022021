@@ -1,0 +1,11 @@
+{
+  "name": "P-3 ohmyfood/openclassrooms",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:.public/css/style-of.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "projet 3 parcour dev web openclassrooms"
+}
