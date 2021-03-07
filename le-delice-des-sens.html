@@ -4,8 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="./sass/main.scss">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
 		<!-- Meta acceuil-description -->
 		<title>Accueil - ohmyfood!</title>
 		<meta name="title" content="Accueil - ohmyfood!">
@@ -14,16 +14,157 @@
     <body>
         <header class="header header--previousBtn">
           <div class="restoContainer">
-            <a href="./index.html"><i class="fas fa-arrow-left header__previousBtn"></i></a>
+            <a href="./index.html"><i class="fas fa-arrow-left header__prevArrow"></i></a>
             <h1 class="header__logo">ohmyfood</h1>
           </div>
         </header>
         <img src="./img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="photo plats exposes" class="illustratePic">
-        <main class="cardMenu content">
-            <header class="cardMenu__header">
-              <h2 class="cardMenu__title">Le délice des sens</h2>
-              <button class="cardMenu__btn">
-                <i class="cardMenu__like cardMenu__like--withoutBg far fa-heart fa-2x"></i>
-                <i class="cardMenu__like cardMenu__like--withbg fas fa-heart fa-2x"></i>
+        <main class="content Menu">
+            <header class="Menu__header">
+              <h2 class="Menu__title">Le délice des sens</h2>
+              <button class="Menu__btn">
+                <i class="Menu__like Menu__like--withoutBg far fa-heart fa-2x"></i>
+                <i class="Menu__like Menu__like--withbg fas fa-heart fa-2x"></i>
               </button>
             </header>
+            <div class="entiteledMenus">
+              <section class="entiteledMenu">
+                <h3 class="entiteledMenu__title">Entrées</h3>
+                <section class="compoCard entiteled-1">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Tartares de thon</h4>
+                    <p class="compoCard__description">Assaisonné au yuzu</p>
+                  </header>
+                  <div class="compoCard__price">25€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+                <section class="compoCard entiteled-1">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Bouchée de homard croustillant</h4>
+                    <p class="compoCard__description">Et sa farandole de petits légumes</p>
+                  </header>
+                  <div class="compoCard__price">35€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+                <section class="compoCard entiteled-3">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Velouté de cèpes</h4>
+                    <p class="compoCard__description">Aux truffes</p>
+                  </header>
+                  <div class="compoCard__price">20€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+              </section>
+              <section class="entiteledMenu">
+                <h3 class="entiteledMenu__title">Plats</h3>
+                <section class="compoCard entiteled-4">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Poulet rôti aux herbes de provences</h4>
+                    <p class="compoCard__description">Et sa crème de truffe</p>
+                  </header>
+                  <div class="compoCard__price">40€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+                <section class="compoCard entiteled-5">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Langouste rôtie</h4>
+                    <p class="compoCard__description">Et ses légumes de saison</p>
+                  </header>
+                  <div class="compoCard__price">35€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+                <section class="compoCard entiteled-6">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Côte de boeuf angus</h4>
+                    <p class="compoCard__description">Et sa purée de panais</p>
+                  </header>
+                  <div class="compoCard__price">44€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+              </section>
+              <section class="entiteledMenu">
+                <h3 class="entiteledMenu__title">Desserts</h3>
+                <section class="compoCard entiteled-7">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Farandole de desserts</h4>
+                    <p class="compoCard__description">Du chef</p>
+                  </header>
+                  <div class="compoCard__price">18€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+                <section class="compoCard entiteled-8">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Crème brulée</h4>
+                    <p class="compoCard__description">Revisitée</p>
+                  </header>
+                  <div class="compoCard__price">22€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+                <section class="compoCard entiteled-9">
+                  <header class="compoCard__header">
+                    <h4 class="compoCard__title">Tiramisu</h4>
+                    <p class="compoCard__description">A la noisette</p>
+                  </header>
+                  <div class="compoCard__price">23€</div>
+                  <div class="compoCard__confirmation">
+                    <div class="compoCard__mainIcon">
+                      <i class="compoCard__icon fas fa-check"></i>
+                    </div>
+                  </div>
+                </section>
+              </section>
+            </div>
+            <div class="mainBtn">
+              <button class="checkBtn">Commander</button>
+            </div>
+        </main>
+        <footer class="footer">
+          <div class="content">
+            <span class="footer__logo">ohmyfood</span>
+            <ul class="footer__lists">
+              <li class="footer__listslist">
+                <a class="footer__link" href="#"><i class="footer__icon fas fa-utensils"></i>Proposer un restaurant</a>
+              </li>
+              <li class="footer__listslist">
+                <a class="footer__link" href="#"><i class="footer__icon fas fa-hands-helping"></i>Devenir partenaire</a>
+              </li>
+              <li class="footer__listslist"><a class="footer__link" href="#">Mentions légales</a></li>
+              <li class="footer__listslist"><a class="footer__link" href="mailto:contact@ohmyfood.com">Contact</a></li>
+            </ul>
+          </div>
+        </footer>
+      </body>
+    </html>
+    

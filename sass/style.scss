@@ -1,3 +1,5 @@
-body {
-    background-color: beige;
-}
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./animation/animations";
+@import "./layout/form-mainPage";
+@import "./layout/form-menusPages";

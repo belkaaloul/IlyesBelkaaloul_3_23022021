@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
 		<!-- Meta acceuil-description -->
 		<title>Accueil - ohmyfood!</title>
@@ -12,16 +12,23 @@
 		<meta name="description" content="Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants.">
 	</head>
 	<body>
+		<div class="animShow">
+			<div class="animShow__wrapContainer">
+			  <div class="animShow__wrap animShow__wrap--1"></div>
+			  <div class="animShow__wrap animShow__wrap--2"></div>
+			  <div class="animShow__wrap animShow__wrap--3"></div>
+			</div>
+		</div>
 		<!-- logo-header -->
 		<header class="header">
-			<h1 class="header-logo">ohmyfood</h1>
+			<h1 class="header__logo">ohmyfood</h1>
 		</header>
 		<!--Pages des restaurants-->
 		<main>
-			<section class="local-marker">
+			<div class="local-marker">
 				<i class="fas fa-map-marker-alt local-marker__icon"></i>
 				<span class="local-marker__text">Paris, Belleville</span>
-			</section>
+			</div>
 			<section class="booking">
 				<h2 class="booking__title">Réservez le menu qui<br>vous convient</h2>
 				<p class="booking__subtitle">
@@ -30,7 +37,7 @@
 				<a class="booking__btn">Explorer nos restaurants</a>
 			</section>
 			<section class="manual">
-				<div class="container">
+				<div class="content">
 					<h2 class="manual__title">Fonctionnement</h2>
 					<ol class="manual__steps">
 						<li class="manual__step">
@@ -49,7 +56,7 @@
 				</div>
 			</section>
 			<section class="restaurants" id="restaurants">
-				<div class="container">
+				<div class="content">
 					<h2 class="restaurants__title">Restaurants</h2>
 					<div class="restaurantCards">
 						<a class="card" href="./la-palette-du-gout.html">
@@ -60,9 +67,9 @@
 									<h3 class="card__title">La palette du goût</h3>
 									<span class="card__subtitle">Ménilmontant</span>
 								</div>
-								<div class="menu__btn card__btn">
-									<i class="note__like note__like--withoutBg far fa-heart fa-2x"></i>
-									<i class="note__like note__like--withbg fas fa-heart fa-2x"></i>
+								<div class="card__btn Menu__btn">
+									<i class="card__like Menu__like Menu__like--withoutBg far fa-heart fa-2x"></i>
+									<i class="card__like Menu__like Menu__like--withbg fas fa-heart fa-2x"></i>
 								</div>
 							</footer>
 						</a>
@@ -74,9 +81,9 @@
 									<h3 class="card__title">La note enchantée</h3>
 									<span class="card__subtitle">Charonne</span>
 								</div>
-								<div class="menu__btn card__btn">
-									<i class="note__like note__like--withoutBg far fa-heart fa-2x"></i>
-									<i class="note__like note__like--withbg fas fa-heart fa-2x"></i>
+								<div class="card__btn Menu__btn">
+									<i class="card__like Menu__like Menu__like--withoutBg far fa-heart fa-2x"></i>
+									<i class="card__like Menu__like Menu__like--withbg fas fa-heart fa-2x"></i>
 								</div>
 							</footer>
 						</a>
@@ -87,9 +94,9 @@
 									<h3 class="card__title">À la française</h3>
 									<span class="card__subtitle">Cité Rouge</span>
 								</div>
-								<div class="menu__btn card__btn">
-									<i class="note__like note__like--withoutBg far fa-heart fa-2x"></i>
-									<i class="note__like note__like--withbg fas fa-heart fa-2x"></i>
+								<div class="card__btn Menu__btn">
+									<i class="card__like Menu__like Menu__like--withoutBg far fa-heart fa-2x"></i>
+									<i class="card__like Menu__like Menu__like--withbg fas fa-heart fa-2x"></i>
 								</div>
 							</footer>
 						</a>
@@ -100,9 +107,9 @@
 									<h3 class="card__title">Le délice des sens</h3>
 									<span class="card__subtitle">Folie-Méricourt</span>
 								</div>
-								<div class="menu__btn card__btn">
-									<i class="note__like note__like--withoutBg far fa-heart fa-2x"></i>
-									<i class="note__like note__like--withbg fas fa-heart fa-2x"></i>
+								<div class="card__btn Menu__btn">
+									<i class="card__like Menu__like Menu__like--withoutBg far fa-heart fa-2x"></i>
+									<i class="card__like Menu__like Menu__like--withbg fas fa-heart fa-2x"></i>
 								</div>
 							</footer>
 						</a>
@@ -112,7 +119,7 @@
 		</main>
 		<!-- pied-de-page-->
 		<footer class="footer">
-			<div class="container">
+			<div class="content">
 				<span class="footer__logo">ohmyfood</span>
 				<ul class="footer__lists">
 					<li class="footer__listslist">
